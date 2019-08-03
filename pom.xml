@@ -10,11 +10,11 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>1.8</java.version>
 		<!-- Maven默认执行Jmeter报告结果生成的路径 -->
-		<jmeter.result.jtl.dir>${project.build.directory}\jmeter\results</jmeter.result.jtl.dir>
-		<jmeter.result.html.dir>${project.build.directory}\jmeter\html</jmeter.result.html.dir>
+		<!--<jmeter.result.jtl.dir>${project.build.directory}\jmeter\results</jmeter.result.jtl.dir>
+		<jmeter.result.html.dir>${project.build.directory}\jmeter\html</jmeter.result.html.dir>	-->
 		<!-- Jenkins构建生成报告所在路径 -->
-		<!-- <jmeter.result.jtl.dir>${env.WORKSPACE}/Report/${env.BUILD_ID}/jtl</jmeter.result.jtl.dir> 
-			<jmeter.result.html.dir>${env.WORKSPACE}/Report/${env.BUILD_ID}/html</jmeter.result.html.dir> -->
+			<jmeter.result.jtl.dir>${env.WORKSPACE}/Report/${env.BUILD_ID}/jtl</jmeter.result.jtl.dir> 
+			<jmeter.result.html.dir>${env.WORKSPACE}/Report/${env.BUILD_ID}/html</jmeter.result.html.dir>
 	</properties>
 
 
